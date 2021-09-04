@@ -16,7 +16,7 @@ Microservice Application with SpringCloud
 12. [데이터 동기화를 위한 Apache Kafka의 활용 - 2](https://www.notion.so/12-Apache-Kafka-2-41891d89afb946e3828c795b3232fd91)
 13. 보류
 14. 보류
-15. [애플리케이션 배포를 위한 컨테이너 가상화](https://www.notion.so/15-8b44db4f71c248f3a52f19f0a04083cf)
+15. [애플리케이션 배포를 위한 컨테이너 가상화 (Docker)](https://www.notion.so/15-8b44db4f71c248f3a52f19f0a04083cf)
 
 
 
@@ -72,8 +72,6 @@ Microservice Application with SpringCloud
     docker run [OPTIONS] IMAGE[:TAG|@DIGEST][COMMAND][ARG...]
     ```
 
-     
-
     [Docker Run Options](https://www.notion.so/5a15209bfe764f0681d62d445f2ef621)
 
 ### Ubuntu Test
@@ -81,10 +79,5 @@ Microservice Application with SpringCloud
 1. 설치: docker pull ubuntu:16.04
 2. 실행: docker run ubuntu
 3. 실행 이력 확인: docker container ps -a
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c3c2538a-a65b-43e2-af02-ed1f238bd311/Untitled.png)
-
 4. 제거: docker rm b4ec3363963b
 5. container 목록 확인: docker container ls -a
-
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/265a3b0f-8d21-4bc3-9a70-181a65d602ca/Untitled.png)
